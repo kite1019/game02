@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>FUN肆快車手【PChome24h購物】</title>
+    <meta property="og:title" content="【PChome24h購物】">
+    <meta property="og:description" content="台北市6小時到貨(試營運)，全台灣24小時到貨！"/>
+    <meta property="og:image" content="//a.ecimg.tw/css/2016/style/images/v201607/sitelogo/h24.png">
+    <link rel="apple-touch-icon" href="//a.ecimg.tw/css/2016/style/images/v201607/sitelogo/h24.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0">
+    <!--CSS-->
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+    <link type="text/css" rel="stylesheet" href="css/game.css">
+    <style type="text/css">
+      body,div,span,h1,p,a,img,dl,dt,dd{margin:0;padding:0;border:0;vertical-align:none!important;background:transparent;}
+    </style> 
+    <!-- Google Tag Manager -->
+    <script>
+    window.dataLayer = window.dataLayer || [] ;
+    window.dataLayer.push({'site':'24h'});
+    window.dataLayer && window.dataLayer.push({'event':'custom.event.pageview'}) ;
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TKSM5PF');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105792616-39"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-105792616-39');
+    </script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKSM5PF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Desktop header -->
+    <ul class="header_desktop">
+        <li><a href="https://24h.pchome.com.tw/"><img src="img/header_01.png"></a></li>
+        <li><a href="https://ecvip.pchome.com.tw/?m=myaccount&f=show24hHelp"><img src="img/header_02.png"></a></li>
+        <li class="description"><a href="https://ecvip.pchome.com.tw/?m=myaccount&f=show24hHelp">例外及說明</a></li>
+        <li class="description appDonload">| <span>APP下載</span> 
+            <div class="appQRcode"><a href="https://24h.m.pchome.com.tw/appget.php" target="_blank"><img src="img/QRCode.png"></a></div>
+        </li>
+        <li class="media_share">
+            |<img src="img/media_share.png" class="media_share"><span>分享</span>
+            <ul class="social_media">
+                <li>
+                    <a class="flex" onclick="window.open('https://line.me/R/msg/text/?'+ (encodeURIComponent(document.title)) + '%0D%0A'+ (encodeURIComponent(location.href)), '_blank');" href="javascript: void(0)"><div class="line"><img src="img/line.svg"></div> LINE</a>
+                </li>
+                <li>
+                    <a class="flex" href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" target="_blank"><div class="fb"><img src="img/fb.svg"></div>Facebook</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!-- Desktop header // END -->
+
+    <!-- Mobile header -->
+    <div class="header_mobile">
+        <a href="https://24h.m.pchome.com.tw/"><img src="img/24HLOGO.png" class="logo"></a>
+    </div>
+    <!-- Mobile header // END -->
+
+    <div id="main">
+        <ul class="btn_wrap flex">
+            <li class="popup"><img src="img/btn_01.png"></li>
+            <li><a href="//24h.m.pchome.com.tw/appget.php"><img src="img/btn_02.png"></a></li>
+        </ul>
+        <div id="start"></div>
+        <div id="gamePanel">
+            <div class="score-wrap">
+                <div id="countdown">30</div>
+                <div id="score">00</div>
+                <img src="img/score_bg.png" class="score_bg">
+            </div>
+
+            <canvas id="stage">
+                <span>Browser does not support the canvas.</span>
+            </canvas>
+        </div>
+
+        <div id="gameoverPanel"></div>
+
+        <div id="resultPanel">
+            <div class="score-result">
+                <a href="javascript:void(0)" class="replay">
+                    <img src="img/replay_01.png" class="replay_lose">
+                    <img src="img/replay_02.png" class="replay_win">
+                </a>
+                <div class="resultScore">你得了<span>7</span>分</div>
+                <div class="tips">真遺憾...<br>你的行車技術<br>要再加油!</div>
+                <div class="tips_win"></div>
+                <div class="gift_text"></div>
+                <div class="gift_btn"></div>
+            </div>
+        </div>
+
+        <!-- 燈箱 活動辦法 -->
+        <div class="game_popup">
+            <div class="game_info">
+                <h2>FUN肆快車手<br>活動辦法</h2>
+                <ul>
+                    <li>
+                        <b>活動時間：</b><br>2019/2/27(三)00:00~3/4(一)23:59
+                    </li>
+                    <li>
+                        <b>活動方式：</b><br>點擊START即開始遊戲，限時30秒內，請使出你上下左右飄移的技術，躲避障礙物，就有機會獲得驚喜好康喔！
+                    </li>
+                </ul>
+                <h2>注意事項</h2>
+                <ul>
+                    <li>PChome保留隨時修改、終止或變更本活動內容之權利。修改後之活動內容將於本活動網頁中更新，恕不另行通知。</li>
+                </ul>
+                <div class="btn_close">關閉</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-1.10.2.js" ></script>
+    <script src="./js/game_set.js" ></script>
+    <script src="./js/iscroll.js" ></script>
+    <script src="./js/game.js" ></script>
+</body>
+</html>
